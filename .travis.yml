@@ -10,6 +10,9 @@ addons:
     packages:
     - python-pip
 
+before_install:
+  - git submodule update --init --recursive
+
 install:
   # Install ansible
   - pip install ansible
