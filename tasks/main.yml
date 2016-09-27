@@ -4,7 +4,7 @@
     name: "{{ item }}"
     state: present
     update_cache: yes
-  with_items: 
+  with_items:
     - python
     - python-pip
     - apt-transport-https
@@ -12,8 +12,7 @@
 - name: Updateing pip
   pip:
     name: pip
-    state: latest
-    
+    state: present
 
 - name: add docker repository key
   apt_key:
@@ -48,4 +47,3 @@
 
 - name: Install docker-py
   pip: name=docker-py
-
