@@ -1,0 +1,3 @@
+[submodule "travis-ci-linter"]
+	path = travis-ci-linter
+	url = https://github.com/lonix/travis-ci-linter
