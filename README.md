@@ -1,7 +1,7 @@
 Role Name
 =========
 
-This role will install latest docker from docker.io's private repos.
+This role will install latest docker from docker.io's offical repo.
 
 Requirements
 ------------
@@ -11,7 +11,7 @@ Requirements
 Role Variables
 --------------
 
-- update_docker_package : Will update to latest if not allready uptodate
+- update_docker_package : Will update to latest if not already up-to-date
                           false\no will only install not update.
 
 Dependencies
