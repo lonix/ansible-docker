@@ -21,4 +21,4 @@ docker_opts: ""
 docker_group_members: []
 
 # Set to 'yes' or 'true' to enable updates (sets 'latest' in apt module)
-update_docker_package: yes
+update_docker_package: false
